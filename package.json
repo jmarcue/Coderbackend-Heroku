@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node ./src/server.js -p 3030",
-    "dev": "nodemon ./src/server.js -e js,ejs,css,html -p 3030"  
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js -e js,ejs,css,html -p 8080"  
   },
   "keywords": [],
   "author": "Jaime Martinez C.",
