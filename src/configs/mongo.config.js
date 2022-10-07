@@ -7,7 +7,7 @@ export default class mongoConnect {
   }
 
   createConnection() {
-    const uri = serverConfig.MONGO_LOCAL;
+    const uri = serverConfig.MONGO_ATLAS;
     const options = { useNewUrlParser: true, useUnifiedTopology: true };
     
     mongoose.connect(uri, options).then(err => { err });

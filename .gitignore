@@ -5,4 +5,4 @@ nginx-1.23.1
 # Backup folder
 _[Bb]ackup/
 0*.*
-*.env
+# *.env
