@@ -1,5 +1,5 @@
 import messageModel from '../models/message.model.js';
-import mongoConnect from '../config/mongo.config.js';
+import mongoConnect from '../configs/mongo.config.js';
 
 class messageClass {
   constructor () {
